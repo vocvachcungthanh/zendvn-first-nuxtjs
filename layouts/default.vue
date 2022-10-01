@@ -16,6 +16,12 @@
       <li>
         <nuxt-link to="/custom-loading"> Custom loading </nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/asyncData"> Async Data </nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/fetchMethod"> Fetch Method </nuxt-link>
+      </li>
     </ul>
     <Nuxt />
     <footer>

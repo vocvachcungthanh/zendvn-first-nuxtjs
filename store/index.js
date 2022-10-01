@@ -9,6 +9,11 @@ export const mutations = {
 }
 
 export const actions = {
+  nuxtServerInit(vuexContent, nuxtContext) {
+    // eslint-disable-next-line no-console
+    console.log({ vuexContent }, { nuxtContext })
+  },
+
   increment(context) {
     context.commit('increment')
   },

@@ -6,4 +6,8 @@ export default {
 
     state.INIT_POSTS = initPostsClone
   },
+
+  setListPost(state, listPost) {
+    state.INIT_POSTS_ITEM = listPost
+  },
 }
